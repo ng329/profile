@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+background-image: url("images/background_image.jpg") ;
+background-size: cover;
+
+}
+@media (max-width: 2000px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+  }
+  #profile-image {
+    width: 30%;
+    position: relative;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+  }
+  #profile-image {
+    width: 30%;
+    position: relative;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+  #profile-image {
+    width: 30%;
+    position: relative;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px;
+  }
+  #profile-image {
+    width:50%;
+  }
+}
+
+.info-text {
+  box-shadow: 2px 5px 5px rgba(15, 12, 71, 0.5);
+  border-radius: 5px;
+  padding: 16px;
+  background-color: rgb(214, 219, 216);
+}
+
+h1 {
+  font-size: 25px;
+  color: rgb(160, 41, 25);
+  font-family: 'Cookie', cursive;
+}
+
+.intro h3 {
+  font-size: 16px;
+  color:  rgb(194, 54, 37);
+  font-family:  'Caveat', cursive;
+}
+
+
+.description p {
+  font-size: 11px;
+  line-height: 20px;
+  font-family: 'Kalam', cursive;
+}
+.description a{
+  font-size: 12px;
+  font-family: 'Bangers', cursive;
+  text-decoration: none;
+  background-color: rgb(171, 67, 54);
+  border-radius: 5px;
+  color: white;
+  padding: 6px;
+}
+.description a:hover {
+  color: rgb(72, 188, 214);
+}
+
+.social-links{
+  box-shadow: 0.5px 2px 3px rgb(86, 30, 30);
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(132, 143, 149);
+}
+.social-links h4{
+  font-size: 14px;
+  line-height: 8px;
+  font-family:  'Caveat', cursive;
+}
+.icons-style {
+	position: relative;
+	display: inline;
+	padding-left: 1em;
+  padding-right: 1em;
+  right: 20px;
+  float: center;
+}
+.fab {
+  color: rgb(120, 54, 61);
+  font-size: 24px;
+}
+.fab:hover {
+  color: rgb(227, 178, 50);
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+body {
+  font-family: 'Noto Serif', serif;
+
+}
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width:350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+  }
+}
+
+.info-text {
+  box-shadow: 1px 2px 3px rgb(54, 25, 74);
+  border-radius: 5px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 18px;
+  color: rgb(75, 6, 75);
+}
+
+.intro h3 {
+  font-size: 14px;
+  color: rgb(7, 16, 61);
+}
+
+#profile-image {
+  width: 25%;
+  position: relative;
+  border-radius: 50%;
+}
+
+.description p {
+  font-size: 11px;
+  line-height: 20px;
+}
+.description a{
+  font-size: 12px;
+  text-decoration: none;
+  background-color: rgb(124, 30, 212);
+  border-radius: 2.5%;
+  color: white;
+  padding: 6px;
+}
+.description a:hover {
+  color: rgb(17, 239, 165);
+}
+
+.social-links{
+  box-shadow: 0.5px 2px 3px rgb(86, 30, 30);
+  padding: 12px;
+}
+.social-links h4{
+  font-size: 14px;
+  line-height: 8px;
+}
+.icons-style {
+	position: relative;
+	display: inline;
+	padding-left: 1em;
+  padding-right: 1em;
+  float: center;
+}
+.fab {
+  color: rgb(120, 54, 61);
+  font-size: 24px;
+}
+.fab:hover {
+  color: rgb(236, 185, 142);
+} */
